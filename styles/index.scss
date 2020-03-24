@@ -4,6 +4,7 @@
 @import './reviews.scss';
 @import './visit';
 @import './workflow';
+@import './features.scss';
 * {
     box-sizing: border-box;
 }
@@ -24,16 +25,30 @@ html {
     }
 }
 
-h2.title{
+h2.title {
     font-weight: normal;
     font-size: 30px;
     line-height: 60px;
     /* identical to box height, or 200% */
     color: #11223F;
-    display: flex;
-    align-items: center;
     text-transform: uppercase;
-    padding: 0;margin: 0;
-    padding-left: 60px;
-    padding-right: 60px; 
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    @include for-sm-up {
+        margin-left: 160px;
+    }
+}
+
+h2.title:after {
+    background: #1968FC;
+    box-shadow: 0px 2px 0px #D1E1FE;
+    content: "";
+    height: 2px;
+    width: 80px;
+    margin-top: 10px;
+    display: block;
+    @include for-sm-up {
+        margin-left: -40px;
+    }
 }
