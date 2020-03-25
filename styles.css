@@ -691,6 +691,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-transform: uppercase;
+  color: #1968FC;
+  font-weight: bold;
 }
 @media screen and (min-width: 1024px) {
   .consultation__button {

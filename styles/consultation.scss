@@ -52,6 +52,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-transform: uppercase;
+        color: #1968FC;
+        font-weight: bold;
         @include for-sm-up {
             margin: 40px 0 80px 160px;
         }
