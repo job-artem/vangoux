@@ -1,6 +1,7 @@
 .logo {
   display: flex;
   align-items: center;
+  width: 180px;
 }
 
 .page-header {
@@ -33,6 +34,10 @@
   font-size: 20px;
   line-height: 30px;
   color: #1968FC;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .page-header__navigation {
   display: none;
@@ -42,7 +47,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 220px;
+    margin-left: 200px;
+    width: 540px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .page-header__navigation-item:last-child {
+    width: 180px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -51,6 +63,10 @@
     font-size: 14px;
     line-height: 20px;
     width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
   }
 }
 .page-header__upload-btn {
@@ -58,7 +74,7 @@
 }
 @media screen and (min-width: 1024px) {
   .page-header__upload-btn {
-    margin-left: 20px;
+    margin-left: auto;
     display: block;
     width: 180px;
     height: 50px;
