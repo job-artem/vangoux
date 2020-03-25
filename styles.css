@@ -651,6 +651,7 @@
 @media screen and (min-width: 1024px) {
   .consultation__title {
     margin: 80px 159px 0 160px;
+    height: 60px;
   }
 }
 .consultation__title:after {
