@@ -490,8 +490,18 @@
 .users {
   margin-top: 125px;
 }
+@media screen and (min-width: 1024px) {
+  .users {
+    margin-top: 120px;
+  }
+}
 .users__title {
   margin: 0 60px !important;
+}
+@media screen and (min-width: 1024px) {
+  .users__title {
+    margin: 0 160px !important;
+  }
 }
 .users__container {
   padding: 0 60px;
@@ -499,6 +509,19 @@
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 28px;
+}
+@media screen and (min-width: 1024px) {
+  .users__container {
+    padding: 0 160px;
+    margin-top: 38px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .user:nth-child(3),
+.user:nth-child(6) {
+    margin-right: 0;
+  }
 }
 
 .user {
@@ -509,6 +532,12 @@
   padding: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .user {
+    width: 360px;
+    height: 160px;
+  }
 }
 .user__title {
   text-transform: uppercase;
@@ -524,6 +553,303 @@
   line-height: 30px;
   /* or 187% */
   color: #11223F;
+}
+
+.purposes {
+  margin-top: 120px;
+  padding: 0 60px;
+}
+@media screen and (min-width: 1024px) {
+  .purposes {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .purposes__title {
+    margin: 0 160px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .purposes__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 38px;
+    padding: 0 160px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .purpose:nth-child(2),
+.purpose:nth-child(4) {
+    margin-right: 0;
+  }
+}
+
+.purpose {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+}
+@media screen and (min-width: 1024px) {
+  .purpose {
+    width: 540px;
+    height: 80px;
+    margin-right: 40px;
+  }
+}
+.purpose__image {
+  width: 80px;
+  height: 80px;
+}
+.purpose__title {
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+.consultation {
+  margin-top: 60px;
+  background: #1968FC;
+}
+@media screen and (min-width: 1024px) {
+  .consultation {
+    margin-top: 120px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/IllustrationWhiteglove.png);
+    background-position: right top 20px;
+    background-repeat: no-repeat;
+  }
+}
+.consultation__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin: 60px 60px 0 60px;
+}
+@media screen and (min-width: 1024px) {
+  .consultation__title {
+    margin: 80px 159px 0 160px;
+  }
+}
+.consultation__title:after {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 0px #6A9EFF;
+  content: "";
+  height: 2px;
+  width: 80px;
+  margin-top: 10px;
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .consultation__title:after {
+    margin-left: -40px;
+  }
+}
+.consultation__description {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 40px;
+  margin: 38px 60px 0px;
+}
+@media screen and (min-width: 1024px) {
+  .consultation__description {
+    margin: 48px 0 0 160px;
+    width: 640px;
+    height: 80px;
+  }
+}
+.consultation__button {
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.4);
+  border: none;
+  margin: 40px 0 60px 60px;
+  width: 320px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 1024px) {
+  .consultation__button {
+    margin: 40px 0 80px 160px;
+  }
+}
+
+.stories {
+  padding-top: 60px;
+  background: #F2F2F2;
+}
+@media screen and (min-width: 1024px) {
+  .stories {
+    padding-top: 0;
+  }
+}
+.stories__title {
+  margin: 0 60px !important;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+  color: #111111;
+}
+@media screen and (min-width: 1024px) {
+  .stories__title {
+    margin: 120px 160px 0 160px !important;
+  }
+}
+
+.story-cards {
+  margin-top: 38px;
+  padding: 0 60px;
+}
+@media screen and (min-width: 1024px) {
+  .story-cards {
+    display: flex;
+    padding: 0 170px 0 160px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .story-card:last-child {
+    margin-left: 150px;
+  }
+}
+
+.story-card {
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1024px) {
+  .story-card {
+    width: 480px;
+    height: 300px;
+    margin-bottom: 0;
+  }
+}
+.story-card__upper {
+  display: flex;
+}
+.story-card__image {
+  width: 40px;
+  height: 33px;
+}
+.story-card__title {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+  color: #111111;
+}
+.story-card__description {
+  margin: 20px 0px 0px 60px;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 187% */
+  color: #000000;
+}
+.story-card__description a {
+  color: #000000;
+}
+
+.page-footer {
+  background: #F2F2F2;
+}
+
+.footer-container {
+  display: flex;
+  position: relative;
+  background: #FBFBFB;
+  height: 130px;
+  padding: 40px;
+  align-items: center;
+  margin-bottom: 90px;
+}
+@media screen and (min-width: 1024px) {
+  .footer-container {
+    padding: 40px 160px;
+    margin-bottom: 0;
+  }
+}
+
+.footer-logo {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background: rgba(25, 104, 252, 0.05);
+  margin-right: 50px;
+}
+@media screen and (min-width: 1024px) {
+  .footer-logo {
+    margin-right: 0;
+  }
+}
+.footer-logo__text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  color: #1968FC;
+  margin: auto;
+}
+
+.footer-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 3px;
+  padding: 15px;
+  background: rgba(216, 216, 216, 0.0001);
+}
+
+.facebook {
+  padding: 15px 20px;
+}
+
+.footer-illustration {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  box-shadow: 2px 6px 12px rgba(255, 131, 51, 0.3);
+}
+@media screen and (min-width: 1024px) {
+  .footer-illustration {
+    right: 160px;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.footer-nav {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 50px;
+  }
+}
+.footer-nav__item {
+  width: 120px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
 
 * {
