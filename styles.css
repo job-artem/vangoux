@@ -185,9 +185,8 @@
 @media screen and (min-width: 1024px) {
   .reviews {
     display: flex;
-    margin-top: 160px;
-    padding-left: 160px;
-    padding-right: 160px;
+    margin: 160px 160px 0 160px;
+    padding: 0;
   }
 }
 
