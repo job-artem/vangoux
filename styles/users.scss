@@ -16,7 +16,7 @@
         justify-content: space-around;
         margin-top: 28px;
         @include for-sm-up {
-            margin-top: 48px;
+            margin-top: 50px;
             padding: 0;
         }
     }
@@ -61,5 +61,7 @@
         line-height: 30px;
         /* or 187% */
         color: #11223F;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
