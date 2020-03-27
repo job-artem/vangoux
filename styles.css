@@ -441,11 +441,12 @@
     margin: 0;
     margin-right: 80px;
     width: 320px;
+    height: 290px;
   }
 }
 .feature-upper {
   display: flex;
-  background: #F3F7FF;
+  background: #fff;
 }
 .feature-image {
   width: 80px;
@@ -489,7 +490,7 @@
 }
 .feature-lower__decor {
   position: absolute;
-  bottom: -5px;
+  bottom: 0px;
   right: -5px;
 }
 

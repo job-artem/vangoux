@@ -39,10 +39,11 @@
         margin: 0;
         margin-right: 80px;
         width: 320px;
+        height: 290px;
     }
     &-upper {
         display: flex;
-        background: #F3F7FF;
+        background: #fff;
     }
     &-image {
         width: 80px;
@@ -79,7 +80,7 @@
         }
         &__decor {
             position: absolute;
-            bottom: -5px;
+            bottom: 0px;
             right: -5px;
         }
     }
