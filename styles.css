@@ -646,6 +646,7 @@
   .consultation__title {
     margin: 80px 159px 0 160px;
     height: 60px;
+    width: 645px;
   }
 }
 .consultation__title:after {
@@ -657,11 +658,6 @@
   margin-top: 10px;
   display: block;
 }
-@media screen and (min-width: 1024px) {
-  .consultation__title:after {
-    margin-left: -40px;
-  }
-}
 .consultation__description {
   color: #FFFFFF;
   font-size: 20px;
@@ -671,7 +667,7 @@
 @media screen and (min-width: 1024px) {
   .consultation__description {
     margin: 48px 0 0 160px;
-    width: 629px;
+    width: 640px;
     height: 80px;
   }
 }

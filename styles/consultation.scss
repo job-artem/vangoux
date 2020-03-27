@@ -17,6 +17,7 @@
         @include for-sm-up {
             margin: 80px 159px 0 160px;
             height: 60px;
+            width: 645px;
         }
     }
     &__title:after {
@@ -27,9 +28,6 @@
         width: 80px;
         margin-top: 10px;
         display: block;
-        @include for-sm-up {
-            margin-left: -40px;
-        }
     }
     &__description {
         color: #FFFFFF;
@@ -38,7 +36,7 @@
         margin: 38px 60px 0px;
         @include for-sm-up {
             margin: 48px 0 0 160px;
-            width: 629px;
+            width: 640px;
             height: 80px;
         }
     }
