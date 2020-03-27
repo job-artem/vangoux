@@ -43,7 +43,7 @@
         }
         &-item:last-child {
             @include for-sm-up {
-                width: 180px;
+                margin-right: 20px;
             }
         }
         &-item {
