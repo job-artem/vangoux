@@ -54,7 +54,6 @@
     position: absolute;
     bottom: 0;
     right: 40px;
-    box-shadow: 2px 6px 12px rgba(255, 131, 51, 0.3);
     @include for-sm-up {
         right: 160px;
         width: 100px;
