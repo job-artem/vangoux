@@ -3,9 +3,7 @@
         display: flex;
         position: relative;
         flex-direction: column;
-        padding-left: 160px;
-        padding-right: 160px;
-        margin-top: 150px;
+        margin: 150px 160px 0 160px;
     }
     &__title {
         @include for-sm-up {
@@ -75,7 +73,7 @@
         max-width: 100%;
         @include for-sm-up {
             position: absolute;
-            right: 160px;
+            right: 0px;
             top: 50px;
         }
     }
