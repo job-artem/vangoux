@@ -58,6 +58,11 @@
     height: 50px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .page-header__navigation-item:last-child {
+    width: 180px;
+  }
+}
 .page-header__upload-btn {
   display: none;
 }

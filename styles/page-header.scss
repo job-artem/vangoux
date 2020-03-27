@@ -52,6 +52,11 @@
                 height: 50px;
             }
         }
+        &-item:last-child {
+            @include for-sm-up {
+                width: 180px;
+            }
+        }
     }
     &__upload-btn {
         display: none;
