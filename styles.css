@@ -577,7 +577,7 @@
   .purposes__container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 38px;
+    margin-top: 50px;
   }
 }
 
@@ -585,6 +585,13 @@
   .purpose:nth-child(2),
 .purpose:nth-child(4) {
     margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .purpose:nth-child(3),
+.purpose:nth-child(4) {
+    margin-bottom: 0;
   }
 }
 

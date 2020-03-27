@@ -5,12 +5,11 @@
         padding: 0;
         margin: 120px 160px 0 160px;
     }
-    &__title {}
     &__container {
         @include for-sm-up {
             display: flex;
             flex-wrap: wrap;
-            margin-top: 38px;
+            margin-top: 50px;
         }
     }
 }
@@ -19,6 +18,13 @@
 .purpose:nth-child(4) {
     @include for-sm-up {
         margin-right: 0;
+    }
+}
+
+.purpose:nth-child(3),
+.purpose:nth-child(4) {
+    @include for-sm-up {
+        margin-bottom: 0;
     }
 }
 
