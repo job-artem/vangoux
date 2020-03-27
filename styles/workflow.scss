@@ -3,6 +3,7 @@
     padding: 0 60px;
     @include for-sm-up {
         padding: 0;
+        margin: 120px 160px 0 160px;
     }
     &__content {
         @include for-sm-up {
@@ -15,11 +16,6 @@
             margin-bottom: 38px !important;
         }
     }
-    &-step:first-child {
-        @include for-sm-up {
-            margin-left: 160px;
-        }
-    }
     &-step:nth-child(2) {
         @include for-sm-up {
             margin-top: 40px;
@@ -27,11 +23,8 @@
     }
     &-step:nth-child(3) {
         @include for-sm-up {
-            margin-top: 80px;
+            margin: 80px 0 0 0;
         }
-    }
-    &-step:last-child {
-        margin-bottom: 0;
     }
     &-step:last-child::after {
         display: none;

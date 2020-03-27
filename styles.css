@@ -278,6 +278,7 @@
 @media screen and (min-width: 1024px) {
   .workflow {
     padding: 0;
+    margin: 120px 160px 0 160px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -294,22 +295,14 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .workflow-step:first-child {
-    margin-left: 160px;
-  }
-}
-@media screen and (min-width: 1024px) {
   .workflow-step:nth-child(2) {
     margin-top: 40px;
   }
 }
 @media screen and (min-width: 1024px) {
   .workflow-step:nth-child(3) {
-    margin-top: 80px;
+    margin: 80px 0 0 0;
   }
-}
-.workflow-step:last-child {
-  margin-bottom: 0;
 }
 .workflow-step:last-child::after {
   display: none;
