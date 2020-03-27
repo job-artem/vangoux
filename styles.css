@@ -399,6 +399,7 @@
 @media screen and (min-width: 1024px) {
   .features {
     margin-top: 120px;
+    margin: 120px 160px 0 160px;
     padding: 0;
   }
 }
@@ -407,7 +408,6 @@
 }
 @media screen and (min-width: 1024px) {
   .features__list {
-    padding: 0 160px;
     display: flex;
   }
 }
@@ -894,11 +894,6 @@ h2.title {
   padding: 0;
   margin: 0;
 }
-@media screen and (min-width: 1024px) {
-  h2.title {
-    margin-left: 160px;
-  }
-}
 
 h2.title:after {
   background: #1968FC;
@@ -908,11 +903,6 @@ h2.title:after {
   width: 80px;
   margin-top: 10px;
   display: block;
-}
-@media screen and (min-width: 1024px) {
-  h2.title:after {
-    margin-left: -40px;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

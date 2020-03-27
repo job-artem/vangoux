@@ -40,9 +40,6 @@ h2.title {
     text-align: left;
     padding: 0;
     margin: 0;
-    @include for-sm-up {
-        margin-left: 160px;
-    }
 }
 
 h2.title:after {
@@ -53,7 +50,4 @@ h2.title:after {
     width: 80px;
     margin-top: 10px;
     display: block;
-    @include for-sm-up {
-        margin-left: -40px;
-    }
 }
