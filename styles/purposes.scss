@@ -3,18 +3,14 @@
     padding: 0 60px;
     @include for-sm-up {
         padding: 0;
+        margin: 120px 160px 0 160px;
     }
-    &__title {
-        @include for-sm-up {
-            margin: 0 160px;
-        }
-    }
+    &__title {}
     &__container {
         @include for-sm-up {
             display: flex;
             flex-wrap: wrap;
             margin-top: 38px;
-            padding: 0 160px;
         }
     }
 }

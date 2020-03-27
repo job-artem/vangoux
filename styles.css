@@ -512,7 +512,7 @@
 }
 @media screen and (min-width: 1024px) {
   .users__container {
-    margin-top: 38px;
+    margin-top: 48px;
     padding: 0;
   }
 }
@@ -522,6 +522,12 @@
 .user:nth-child(6) {
     margin-right: 0;
   }
+}
+
+.user:nth-child(4),
+.user:nth-child(5),
+.user:nth-child(6) {
+  margin-bottom: 0;
 }
 
 .user {
@@ -562,11 +568,7 @@
 @media screen and (min-width: 1024px) {
   .purposes {
     padding: 0;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .purposes__title {
-    margin: 0 160px;
+    margin: 120px 160px 0 160px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -574,7 +576,6 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 38px;
-    padding: 0 160px;
   }
 }
 
