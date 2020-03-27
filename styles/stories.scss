@@ -1,6 +1,6 @@
 .stories {
     padding-top: 60px;
-    background: #F2F2F2;
+    background: #fff;
     @include for-sm-up {
         padding-top: 0;
     }
@@ -41,6 +41,7 @@
     }
     &__upper {
         display: flex;
+        align-items: center;
     }
     &__image {
         width: 40px;

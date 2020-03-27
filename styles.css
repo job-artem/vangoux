@@ -696,7 +696,7 @@
 
 .stories {
   padding-top: 60px;
-  background: #F2F2F2;
+  background: #fff;
 }
 @media screen and (min-width: 1024px) {
   .stories {
@@ -746,6 +746,7 @@
 }
 .story-card__upper {
   display: flex;
+  align-items: center;
 }
 .story-card__image {
   width: 40px;
